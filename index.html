@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <title>Dermasil</title>
+</head>
+<body>
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left uk-margin-medium-left">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <!-- <a href="#"><img src="png/textos_logos.png" alt="" style="width: 100px;"></a> -->
+                    <a href="#">Clinica<strong>Dermasil</strong></a>
+                </li>
+                <li><a href="#" class="uk-margin-small-left">Inicio</a></li>
+                <li>
+                    <form>
+                        <div class="uk-inline uk-position-center">
+                            <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
+                            <input class="uk-input" type="search" placeholder="" autofocus>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right uk-margin-medium-right">
+            <ul class="uk-navbar-nav">
+                <li><a class="uk-navbar-item" href="#"><span uk-icon="icon: location"></span></a></li>
+                <li><a class="uk-navbar-item" href="#"><span uk-icon="icon: facebook"></span></a></li>
+                <li><a class="uk-navbar-item" href="#"><span uk-icon="icon: instagram"></span></a></li>
+                <li>
+                    <button class="uk-button  uk-button-primary" style="margin-top: 20px;">Agenda una cita</button>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li>
+                                <a href="#"><span class="uk-margin-small-right" uk-icon="icon: user"></span>Primera cita</a>
+                            </li>
+                            <li class="uk-nav-divider"></li>
+                            <li>
+                                <a href="#"><span class="uk-margin-small-right" uk-icon="icon: sign-out"></span>Seguimiento</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="uk-background-secondary" style="display: flex; align-items: center; justify-content: space-between;">
+        <button class="uk-button uk-button-primary">Preguntas</button>
+        <button class="uk-button uk-button-secondary">Sobre mi</button>
+        <button class="uk-button uk-button-secondary">Quirúrgico</button>
+        <button class="uk-button uk-button-secondary">Estético</button>
+        <button class="uk-button uk-button-secondary">Anecdotas</button>
+        <button class="uk-button uk-button-secondary">Contacto</button>
+        <button class="uk-button uk-button-danger"><span uk-icon="icon: cart" class="uk-margin-small-right"></span>Tienda</button>
+    </div>
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 8:3; animation: push">
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="images/img1.jpg" alt="" uk-cover>
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h4 class="uk-margin-remove">Coloca tu belleza en manos de especialistas</h4>
+                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/img3.jpg" alt="" uk-cover>
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h4 class="uk-margin-remove">Nuestros tratamientos</h4>
+                    <button class="uk-button  uk-button-primary" style="margin-top: 20px;">Más información</button>
+                </div>
+            </li>
+            <li>
+                <img src="images/img2.jpg" alt="" uk-cover>
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h4 class="uk-margin-remove">No Esperes Más y Haz Tu Cita</h4>
+                    <button class="uk-button  uk-button-primary" style="margin-top: 20px;">Agenda una cita</button>
+                </div>
+            </li>
+
+            <!-- <li>
+                <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA?autoplay=1&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;loop=1&amp;modestbranding=1&amp;wmode=transparent&amp;playsinline=1" width="1920" height="1080" allowfullscreen uk-cover></iframe>
+            </li> -->
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    </div>
+
+    <div class="uk-container uk-margin-medium-top">
+        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <p class="uk-text-lead uk-text-light">Mi nombre es Ximena Fernández</p>
+                    <p>Antes que ser médico egresado de la Universidad Central de Venezuela, soy una mujer, venezolana, mamá, comprometida de corazón con trascender en esta vida, ¿Qué mejor manera de lograr esto que poniendo mi vocación al servicio de la salud integral de mis pacientes?</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-primary uk-card-body">
+                    <p class="uk-text-lead uk-text-light">Información</p>
+                    <p>Con eso en mente me especialicé en medicina estética y me ocupé en estudiar cada uno de los tratamientos que mejoran de una u otra forma la vida de mis pacientes. En la Fundación Centro de Estudios de Medicina Estética (FUCEME-2009) aprendí una serie de técnicas que hoy día aplico valiéndome también de los equipos más modernos y la tecnología más avanzada.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-secondary uk-card-body">
+                    <p class="uk-text-lead uk-text-light">Tratamiento</p>
+                    <p>Brinda beneficios varios que no solo se reflejan en la autoestima de cada uno sino también otorga a quien se somete a estos tratamientos una nueva óptica sobre su vida. No en vano la Organización Mundial de la Salud define a ésta como “un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades”.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<hr>
+<div class="uk-container uk-margin-medium-top uk-flex uk-flex-center">
+
+    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2022-10-25T01:18:26+00:00">
+        <div>
+            <div class="uk-countdown-number uk-countdown-days"></div>
+            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Inyecciones</div>
+        </div>
+        <hr class="uk-margin-medium-left uk-divider-vertical">
+        <div>
+            <div class="uk-countdown-number uk-countdown-hours"></div>
+            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Pacientes</div>
+        </div>
+        <hr class="uk-margin-medium-left uk-divider-vertical">
+        <div>
+            <div class="uk-countdown-number uk-countdown-minutes"></div>
+            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Faciales</div>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="uk-background-muted uk-height-large">
+    <div class="uk-card uk-card-default uk-card-body uk-text-center uk-position-z-index uk-background-secondary" uk-sticky="position: bottom; end: !.uk-height-large">
+        CC San Ignacio, Nivel Chaguaramos, local CH- 47. Caracas, DF. info@dracristinapremerl.com +58 424-139-8144 FB IG TW
+    </div>
+</div>
+</body>
+</html>
