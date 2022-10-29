@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/smart_autocomplete_list_styles.css">
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
     <title>Dermasil</title>
@@ -19,11 +20,18 @@
                 </li>
                 <li><a href="#" class="uk-margin-small-left">Inicio</a></li>
                 <li>
-                    <form>
+                    <!-- <form>
                         <div class="uk-inline uk-position-center">
                             <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
                             <input class="uk-input" type="search" placeholder="" autofocus>
                         </div>
+                    </form> -->
+                    <form autocomplete="off" action="/action_page.php">
+                        <div class="uk-inline uk-position-center autocomplete" style="width:300px;">
+                            <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
+                            <input id="myInput" type="text" name="myCountry" placeholder="Country" class="uk-input" type="search">
+                        </div>
+                        <!-- <input type="submit"> -->
                     </form>
                 </li>
             </ul>
@@ -141,5 +149,8 @@
         CC San Ignacio, Nivel Chaguaramos, local CH- 47. Caracas, DF. info@dracristinapremerl.com +58 424-139-8144 FB IG TW
     </div>
 </div>
+
+<script src="js/smart_autocomplete_list.js"></script>
+
 </body>
 </html>
